@@ -121,7 +121,7 @@ export default {
   },
   setup() {
     const activeReviewId = ref(null)  
-    const movieTitle = "gladiator"
+    const movieTitle = "Sookshmadarshini"
     const backgroundImage = ref(artifacts[movieTitle]) // Your default image URL
     
     const reviews = reviewlist[movieTitle]

@@ -1,4 +1,65 @@
-{"hello mummy":[
+{ "Sookshmadarshini":
+[
+  {
+    "reviewer": "@aswanthkok10",
+    "rating": 4.0,
+    "badge": "Film Connoisseur",
+    "positives": [
+      ["Excellent cinematography", "27.76"],
+      ["Great background score", "34.64"],
+      ["Natural acting Nasriya", "128.0"],
+      ["Basil's impactful role", "119.6"]
+    ],
+    "negatives": [
+      ["Director is nonsense", "5.12"],
+      ["Predictable storyline", "270.08"],
+      ["Slow in parts", "44.719"]
+    ],
+    "title": "Engaging family drama",
+    "review_link": "https://www.youtube.com/watch?v=CzY0265VwWk",
+    "details": "A gripping family drama with strong performances, especially from Nasriya and Basil.  Some pacing issues, but overall enjoyable."
+  },
+  {
+    "reviewer": "@UnniVlogs",
+    "rating": 3.5,
+    "badge": "Movie Buff",
+    "positives": [
+      ["Great climax twist", "110.399"],
+      ["Brilliant investigation", "151.68"],
+      ["Impressive visuals", "191.12"],
+      ["Excellent background score", "217.92"]
+    ],
+    "negatives": [
+      ["Could be crisper", "297.199"],
+      ["Unnecessary repetition", "325.36"],
+      ["Slow storytelling", "301.199"]
+
+    ],
+    "title": "Gripping thriller review",
+    "review_link": "https://www.youtube.com/watch?v=-HjEMQEBTzY",
+    "details": "A suspenseful thriller with a unique investigation, but suffers from pacing issues and could benefit from tighter editing.  The twist in climax is great"
+  },
+  {
+    "reviewer": "@Lifeof_Shazzam",
+    "rating": 4.5,
+    "badge": "Film Critic",
+    "positives": [
+      ["Great cinematography", "27.32"],
+      ["Fantastic editing", "43.28"],
+      ["Dark humor used well", "92.64"],
+      ["Gripping thriller", "86.56"]
+    ],
+    "negatives": [
+       ["Nasriya miscast", "153.08"],
+       ["Poor police portrayal", "226.239"],
+       ["Predictable ending", "120.64"]
+    ],
+    "title": "Dark thriller enjoyable",
+    "review_link": "https://www.youtube.com/watch?v=Qh1pvOwOyE4",
+    "details": "A thrilling and dark movie with excellent technical aspects and captivating performances from most of the cast. Nasriya's casting and some aspects of police portrayal are questionable"
+  }
+],
+  "hello mummy":[
   {
     "reviewer": "@UnniVlogs",
     "rating": 3.0,
