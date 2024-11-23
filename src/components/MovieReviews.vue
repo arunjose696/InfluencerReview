@@ -3,7 +3,7 @@
  <div class="background-wrapper" :style="backgroundStyle"></div>
  <div class="content-wrapper">
   <div class="min-h-screen p-81">
-    <h1 class="text-7xl font-black mb-16 text-center bg-gradient-to-br from-indigo-600 via-fuchsia-500 to-amber-500 bg-clip-text text-transparent animate-[pulse_2s_ease-in-out_infinite] transform hover:scale-110 transition-all duration-500 hover:rotate-1 drop-shadow-[0_10px_25px_rgba(0,0,0,0.15)] tracking-tight">
+    <h1 class="text-6xl font-extrabold mb-12 text-center bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 bg-clip-text text-transparent animate-pulse transform hover:scale-105 transition-transform duration-300 drop-shadow-lg">
       {{ movieTitle }}
     </h1>
     
@@ -51,7 +51,7 @@
           <CardContent>
             <!-- Always visible content -->
             
-
+        <div class="non-clickable" @click.stop>
             <!-- Expandable content -->
             <div v-if="activeReviewId === index" 
                  class="grid gap-4 animate-fade-in">
@@ -91,6 +91,7 @@
                 </ul>
               </div>
             </div>
+            </div>
           </CardContent>
         </Card>
     </div>
@@ -104,6 +105,7 @@
 import { ref,computed } from 'vue'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
 import { Star, Award, ThumbsUp, ThumbsDown } from 'lucide-vue-next'
+import { useRoute } from 'vue-router'
 import reviewlist from '@/assets/reviews.json';
 
 import pictures from '@/assets/pictures.json';
@@ -134,8 +136,9 @@ export default {
     const movieTitle =   computed(() => props.id);
     const backgroundImage = ref(artifacts[movieTitle.value]) // Your default image URL
     const reviews = reviewlist[movieTitle.value]
+    const route = useRoute()
     console.log(movieTitle.value)
-    console.log(reviewlist)
+    console.log(route.params.id)
     const backgroundStyle = {
       '--bg-image': `url(${backgroundImage.value})`
     }
@@ -195,7 +198,9 @@ export default {
   position: relative;
   z-index: 2; /* Ensure cards are above background */
 }
-
+.non-clickable {
+  cursor: default;  /* Changes cursor to default instead of pointer */
+}
 
 .card:not(:hover) {
   transform: scale(0.98) translateY(0);
