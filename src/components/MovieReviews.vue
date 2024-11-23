@@ -3,11 +3,12 @@
  <div class="background-wrapper" :style="backgroundStyle"></div>
  <div class="content-wrapper">
   <div class="min-h-screen p-81">
-    <h1 class="text-4xl font-bold mb-8 text-gradient text-center">{{ movieTitle }}</h1>
+    <h1 class="text-7xl font-black mb-16 text-center bg-gradient-to-br from-indigo-600 via-fuchsia-500 to-amber-500 bg-clip-text text-transparent animate-[pulse_2s_ease-in-out_infinite] transform hover:scale-110 transition-all duration-500 hover:rotate-1 drop-shadow-[0_10px_25px_rgba(0,0,0,0.15)] tracking-tight">
+      {{ movieTitle }}
+    </h1>
     
     <!-- Grid container -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
-
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">       
         <Card v-for="(review, index) in reviews" 
             :key="index" 
             class="card cursor-pointer"
@@ -100,14 +101,22 @@
 
 
 <script>
-import { ref } from 'vue'
+import { ref,computed } from 'vue'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
 import { Star, Award, ThumbsUp, ThumbsDown } from 'lucide-vue-next'
 import reviewlist from '@/assets/reviews.json';
+
 import pictures from '@/assets/pictures.json';
 import artifacts from '@/assets/artifacts.json';
 export default {
   name: 'MovieReviews',
+  props: {
+    id: {
+      type: String,
+      required: true
+    }
+  },
+    
   components: {
     Card,
     CardHeader,
@@ -119,13 +128,14 @@ export default {
     ThumbsUp,
     ThumbsDown,
   },
-  setup() {
+  
+  setup(props) {
     const activeReviewId = ref(null)  
-    const movieTitle = "Sookshmadarshini"
-    const backgroundImage = ref(artifacts[movieTitle]) // Your default image URL
-    
-    const reviews = reviewlist[movieTitle]
-    
+    const movieTitle =   computed(() => props.id);
+    const backgroundImage = ref(artifacts[movieTitle.value]) // Your default image URL
+    const reviews = reviewlist[movieTitle.value]
+    console.log(movieTitle.value)
+    console.log(reviewlist)
     const backgroundStyle = {
       '--bg-image': `url(${backgroundImage.value})`
     }
@@ -138,9 +148,9 @@ export default {
       //expandedReview.value = expandedReview.value === index ? null : index
       activeReviewId.value = activeReviewId.value === reviewId ? null : reviewId
     }
-
+    
     return {
-    movieTitle,
+      movieTitle,
       backgroundStyle,
       expandedReview,
       reviews,

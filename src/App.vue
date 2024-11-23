@@ -1,16 +1,17 @@
 <template>
-  <MovieReviews />
+  <div id="app">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
 
-import MovieReviews from './components/MovieReviews.vue'
+
 
 export default {
   name: 'App',
   components: {
-
-    MovieReviews
+     
   }
 
 }
