@@ -37,12 +37,24 @@
                 </div>
                 <div class="flex gap-1 mt-1">
                   <Star
-                    v-for="n in 5"
+                    v-for="n in 5" 
                     :key="n"
                     class="h-4 w-4"
-                    :class="n <= review.rating ? 'text-yellow-400' : 'text-gray-300'"
-                    :fill="n <= review.rating ? '#FBBF24' : 'none'"
-                  />
+                    :class="{
+                      'text-yellow-400': n <= Math.floor(review.rating),
+                      'text-yellow-400 half-star': n === Math.ceil(review.rating) && !Number.isInteger(review.rating),
+                      'text-gray-300': n > Math.ceil(review.rating)
+                    }"
+                    :fill="n <= Math.floor(review.rating) ? '#FBBF24' : 
+                          (n === Math.ceil(review.rating) && !Number.isInteger(review.rating)) ? 'url(#half-star)' : 'none'"
+                  >
+                    <defs v-if="n === 1">
+                      <linearGradient id="half-star" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="50%" stop-color="#FBBF24"/>
+                        <stop offset="50%" stop-color="#D1D5DB"/>
+                      </linearGradient>
+                    </defs>
+                  </Star>
                 </div>
               </div>
             </div>

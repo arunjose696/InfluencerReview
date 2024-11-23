@@ -2,61 +2,90 @@
 [
   {
     "reviewer": "@aswanthkok10",
-    "rating": 4.0,
-    "badge": "Film Connoisseur",
+    "rating": 4, 
+    "badge": null,
     "positives": [
-      ["Excellent cinematography", "27.76"],
-      ["Great background score", "34.64"],
-      ["Natural acting Nasriya", "128.0"],
-      ["Basil's impactful role", "119.6"]
+      ["Great making", "49.92"],
+      ["Casting brilliant", "121.04"],
+      ["Nazriya's natural acting", "128.0"],
+      ["Suspenseful climax", "262.24"]
     ],
     "negatives": [
-      ["Director is nonsense", "5.12"],
-      ["Predictable storyline", "270.08"],
-      ["Slow in parts", "44.719"]
+      ["Predictable plot", "53.84"]
     ],
-    "title": "Engaging family drama",
+    "title": "Excellent thriller",
     "review_link": "https://www.youtube.com/watch?v=CzY0265VwWk",
-    "details": "A gripping family drama with strong performances, especially from Nasriya and Basil.  Some pacing issues, but overall enjoyable."
+    "details": "Praises the movie's making, casting (especially Nazriya's performance), and suspenseful climax.  Criticizes the director and slow start."
   },
   {
     "reviewer": "@UnniVlogs",
-    "rating": 3.5,
-    "badge": "Movie Buff",
+    "rating": 4,
+    "badge": null,
     "positives": [
-      ["Great climax twist", "110.399"],
-      ["Brilliant investigation", "151.68"],
-      ["Impressive visuals", "191.12"],
-      ["Excellent background score", "217.92"]
+      ["Brilliant climax twist", "110.399"],
+      ["Engaging investigation", "42.079"],
+      ["Great visuals", "191.12"],
+      ["Excellent sound design", "215.76"]
     ],
     "negatives": [
       ["Could be crisper", "297.199"],
-      ["Unnecessary repetition", "325.36"],
-      ["Slow storytelling", "301.199"]
-
+      ["Predictable twist", "120.64"]
     ],
-    "title": "Gripping thriller review",
+    "title": "Good thriller",
     "review_link": "https://www.youtube.com/watch?v=-HjEMQEBTzY",
-    "details": "A suspenseful thriller with a unique investigation, but suffers from pacing issues and could benefit from tighter editing.  The twist in climax is great"
+    "details": "Highlights the movie's engaging investigation, brilliant climax twist, great visuals, and excellent sound design. Notes that it could be crisper and the twist is somewhat predictable."
+  },
+  {
+    "reviewer": "@SecretAgentX",
+    "rating": 4.5,
+    "badge": null,
+    "positives": [
+      ["Top notch creation", "37.28"],
+      ["Brilliant direction", "62.239"],
+      ["Great camera work", "100.0"],
+      ["Amazing BGM", "107.68"]
+    ],
+    "negatives": [
+      ["None mentioned", null]
+    ],
+    "title": "A masterstroke",
+    "review_link": "https://www.youtube.com/watch?v=OSmA2HiE_zA",
+    "details": "Reviewer loved the movie's direction, camera work, BGM, and the overall craft. No negative points were mentioned."
   },
   {
     "reviewer": "@Lifeof_Shazzam",
-    "rating": 4.5,
-    "badge": "Film Critic",
+    "rating": 4,
+    "badge": null,
     "positives": [
       ["Great cinematography", "27.32"],
-      ["Fantastic editing", "43.28"],
-      ["Dark humor used well", "92.64"],
-      ["Gripping thriller", "86.56"]
+      ["Amazing music", "32.719"],
+      ["Excellent editing", "43.28"],
+      ["Gripping thriller", "88.32"]
     ],
     "negatives": [
-       ["Nasriya miscast", "153.08"],
-       ["Poor police portrayal", "226.239"],
-       ["Predictable ending", "120.64"]
+      ["Nazriya miscast", "153.08"],
+      ["Dark subject matter", "280.88"]
     ],
-    "title": "Dark thriller enjoyable",
+    "title": "Dark thriller",
     "review_link": "https://www.youtube.com/watch?v=Qh1pvOwOyE4",
-    "details": "A thrilling and dark movie with excellent technical aspects and captivating performances from most of the cast. Nasriya's casting and some aspects of police portrayal are questionable"
+    "details": "Praises the cinematography, music, editing, and thrilling nature of the film.  Feels Nazriya was miscast and the subject matter is very dark."
+  },
+  {
+    "reviewer": "@REELOADMEDIA",
+    "rating": 4.5, 
+    "badge": null,
+    "positives": [
+      ["Excellent movie", "206.2"],
+      ["Great casting", "251.76"],
+      ["Impressive performance", "256.88"],
+      ["Complete movie", "332.479"]
+    ],
+    "negatives": [
+      ["No comparison needed", "211.28"]  
+    ],
+    "title": "A gripping thriller",
+    "review_link": "https://www.youtube.com/watch?v=CgTuyknwB5E",
+    "details": "The reviewer praises the movie's unique treatment, excellent casting, and complete storytelling.  While avoiding direct comparisons, they highlight the suspense and mystery."
   }
 ],
   "hello mummy":[
