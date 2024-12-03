@@ -1,206 +1,519 @@
-{ "sookshmadarshini":
-[
-  {
-    "reviewer": "@aswanthkok10",
-    "rating": 4, 
-    "badge": null,
-    "positives": [
-      ["Great making", "49.92"],
-      ["Casting brilliant", "121.04"],
-      ["Nazriya's natural acting", "128.0"],
-      ["Suspenseful climax", "262.24"]
-    ],
-    "negatives": [
-      ["Predictable plot", "53.84"]
-    ],
-    "title": "Excellent thriller",
-    "review_link": "https://www.youtube.com/watch?v=CzY0265VwWk",
-    "details": "Praises the movie's making, casting (especially Nazriya's performance), and suspenseful climax.  Criticizes the director and slow start."
-  },
-  {
-    "reviewer": "@UnniVlogs",
-    "rating": 4,
-    "badge": null,
-    "positives": [
-      ["Brilliant climax twist", "110.399"],
-      ["Engaging investigation", "42.079"],
-      ["Great visuals", "191.12"],
-      ["Excellent sound design", "215.76"]
-    ],
-    "negatives": [
-      ["Could be crisper", "297.199"],
-      ["Predictable twist", "120.64"]
-    ],
-    "title": "Good thriller",
-    "review_link": "https://www.youtube.com/watch?v=-HjEMQEBTzY",
-    "details": "Highlights the movie's engaging investigation, brilliant climax twist, great visuals, and excellent sound design. Notes that it could be crisper and the twist is somewhat predictable."
-  },
-  {
-    "reviewer": "@SecretAgentX",
-    "rating": 4.5,
-    "badge": null,
-    "positives": [
-      ["Top notch creation", "37.28"],
-      ["Brilliant direction", "62.239"],
-      ["Great camera work", "100.0"],
-      ["Amazing BGM", "107.68"]
-    ],
-    "negatives": [
-      ["None mentioned", null]
-    ],
-    "title": "A masterstroke",
-    "review_link": "https://www.youtube.com/watch?v=OSmA2HiE_zA",
-    "details": "Reviewer loved the movie's direction, camera work, BGM, and the overall craft. No negative points were mentioned."
-  },
-  {
-    "reviewer": "@Lifeof_Shazzam",
-    "rating": 4,
-    "badge": null,
-    "positives": [
-      ["Great cinematography", "27.32"],
-      ["Amazing music", "32.719"],
-      ["Excellent editing", "43.28"],
-      ["Gripping thriller", "88.32"]
-    ],
-    "negatives": [
-      ["Nazriya miscast", "153.08"],
-      ["Dark subject matter", "280.88"]
-    ],
-    "title": "Dark thriller",
-    "review_link": "https://www.youtube.com/watch?v=Qh1pvOwOyE4",
-    "details": "Praises the cinematography, music, editing, and thrilling nature of the film.  Feels Nazriya was miscast and the subject matter is very dark."
-  },
-  {
-    "reviewer": "@REELOADMEDIA",
-    "rating": 4.5, 
-    "badge": null,
-    "positives": [
-      ["Excellent movie", "206.2"],
-      ["Great casting", "251.76"],
-      ["Impressive performance", "256.88"],
-      ["Complete movie", "332.479"]
-    ],
-    "negatives": [
-      ["No comparison needed", "211.28"]  
-    ],
-    "title": "A gripping thriller",
-    "review_link": "https://www.youtube.com/watch?v=CgTuyknwB5E",
-    "details": "The reviewer praises the movie's unique treatment, excellent casting, and complete storytelling.  While avoiding direct comparisons, they highlight the suspense and mystery."
-  }
-],
-  "hello mummy":[
-  {
-    "reviewer": "@UnniVlogs",
-    "rating": 3.0,
-    "badge": null,
-    "positives": [
-      ["Good performances", "27.92"],
-      ["Emotional connect", "138.16"],
-      ["Sharfu's performance", "133.2"],
-      ["Nice nostalgic element", "324.56"]
-    ],
-    "negatives": [
-      ["Predictable acting", "57.199"],
-      ["Lack of humor", "71.68"],
-      ["Sharfu's usual style", "90.4"],
-      ["Weak emotional touch", "156.72"]
-    ],
-    "title": "Average, forgettable movie",
-    "review_link": "https://www.youtube.com/watch?v=O2L2UvwCjZ8",
-    "details": "Unni found the movie average.  Acting was predictable, humor lacking. Sharfu's performance was good but typical,  emotional scenes were weak. Some positive aspects noted but overall forgettable."
-  },
-  {
-    "reviewer": "@SecretAgentX",
-    "rating": 4.0,
-    "badge": null,
-    "positives": [
-      ["Excellent movie", "37.28"],
-      ["Sharfu's casting", "91.36"],
-      ["Engaging first half", "322.16"],
-      ["Great background score", "357.6"]
-    ],
-    "negatives": [
-      ["Weak horror elements", "304.0"],
-      ["Songs didn't work", "713.279"],
-      ["Jagadish's look", "774.56"],
-      ["Overused horror tropes", "444.8"]
-    ],
-    "title": "Fun horror comedy",
-    "review_link": "https://www.youtube.com/watch?v=XWOKb5cf3Jg",
-    "details": "SecretAgentX enjoyed the movie, praising Sharfu's performance and the engaging first half. The background score was excellent. However, they criticized the weak horror elements, songs and some stylistic choices."
-  }
-],
+{
+  "sthanarthi sreekuttan": [
+    {
+      "reviewer": "@aswanthkok10",
+      "rating": 4.5,
+      "badge": null,
+      "positives": [
+        [
+          "Good children's film",
+          "47.68"
+        ],
+        [
+          "Great performances",
+          "165.28"
+        ],
+        [
+          "Excellent making",
+          "155.599"
+        ],
+        [
+          "Nice cinematography",
+          "106.96"
+        ]
+      ],
+      "negatives": [
+        [
+          "Bench placement odd",
+          "450.96"
+        ],
+        [
+          "Too cinematic",
+          "92.24"
+        ]
+      ],
+      "title": "Wonderful children's film",
+      "review_link": "https://www.youtube.com/watch?v=NT61I-m_lvE",
+      "details": "A good children's film with great performances and excellent making. However, some aspects like bench placement felt odd and the film was too cinematic."
+    },
+    {
+      "reviewer": "@UnniVlogs",
+      "rating": 4.0,
+      "badge": null,
+      "positives": [
+        [
+          "Wonderful movie",
+          "41.6"
+        ],
+        [
+          "Kids are superb",
+          "71.52"
+        ],
+        [
+          "Aju Vargese's acting",
+          "176.239"
+        ],
+        [
+          "Brilliant music",
+          "495.84"
+        ]
+      ],
+      "negatives": [],
+      "title": "Must watch movie",
+      "review_link": "https://www.youtube.com/watch?v=s5KR3QE4hi4",
+      "details": "A must-watch film with superb child actors and brilliant music. Aju Vargese's acting is outstanding."
+    }
+  ],
+  "vallyettan": [
+    {
+      "reviewer": "@aswanthkok10",
+      "rating": 4.5,
+      "badge": null,
+      "positives": [
+        [
+          "Excellent movie experience",
+          "0.08"
+        ],
+        [
+          "Great Mammootty performance",
+          "72.4"
+        ],
+        [
+          "Superb theater experience",
+          "74.56"
+        ],
+        [
+          "Rich casting, great content",
+          "289.12"
+        ]
+      ],
+      "negatives": [
+        [
+          "Sound quality issues",
+          "86.24"
+        ],
+        [
+          "Second half is loose",
+          "570.24"
+        ],
+        [
+          "Some trimming needed",
+          "563.36"
+        ],
+        [
+          "Average climax",
+          "573.279"
+        ]
+      ],
+      "title": "Nostalgia-filled classic",
+      "review_link": "https://www.youtube.com/watch?v=l32MyQjMaFs",
+      "details": "A nostalgic review focusing on the movie's rich casting, Mammootty's performance and the impact of watching it in theaters back then versus today's technology."
+    }
+  ],
+  "sookshmadarshini": [
+    {
+      "reviewer": "@aswanthkok10",
+      "rating": 4,
+      "badge": null,
+      "positives": [
+        [
+          "Great making",
+          "49.92"
+        ],
+        [
+          "Casting brilliant",
+          "121.04"
+        ],
+        [
+          "Nazriya's natural acting",
+          "128.0"
+        ],
+        [
+          "Suspenseful climax",
+          "262.24"
+        ]
+      ],
+      "negatives": [
+        [
+          "Predictable plot",
+          "53.84"
+        ]
+      ],
+      "title": "Excellent thriller",
+      "review_link": "https://www.youtube.com/watch?v=CzY0265VwWk",
+      "details": "Praises the movie's making, casting (especially Nazriya's performance), and suspenseful climax.  Criticizes the director and slow start."
+    },
+    {
+      "reviewer": "@UnniVlogs",
+      "rating": 4,
+      "badge": null,
+      "positives": [
+        [
+          "Brilliant climax twist",
+          "110.399"
+        ],
+        [
+          "Engaging investigation",
+          "42.079"
+        ],
+        [
+          "Great visuals",
+          "191.12"
+        ],
+        [
+          "Excellent sound design",
+          "215.76"
+        ]
+      ],
+      "negatives": [
+        [
+          "Could be crisper",
+          "297.199"
+        ],
+        [
+          "Predictable twist",
+          "120.64"
+        ]
+      ],
+      "title": "Good thriller",
+      "review_link": "https://www.youtube.com/watch?v=-HjEMQEBTzY",
+      "details": "Highlights the movie's engaging investigation, brilliant climax twist, great visuals, and excellent sound design. Notes that it could be crisper and the twist is somewhat predictable."
+    },
+    {
+      "reviewer": "@SecretAgentX",
+      "rating": 4.5,
+      "badge": null,
+      "positives": [
+        [
+          "Top notch creation",
+          "37.28"
+        ],
+        [
+          "Brilliant direction",
+          "62.239"
+        ],
+        [
+          "Great camera work",
+          "100.0"
+        ],
+        [
+          "Amazing BGM",
+          "107.68"
+        ]
+      ],
+      "negatives": [
+        [
+          "None mentioned",
+          null
+        ]
+      ],
+      "title": "A masterstroke",
+      "review_link": "https://www.youtube.com/watch?v=OSmA2HiE_zA",
+      "details": "Reviewer loved the movie's direction, camera work, BGM, and the overall craft. No negative points were mentioned."
+    },
+    {
+      "reviewer": "@Lifeof_Shazzam",
+      "rating": 4,
+      "badge": null,
+      "positives": [
+        [
+          "Great cinematography",
+          "27.32"
+        ],
+        [
+          "Amazing music",
+          "32.719"
+        ],
+        [
+          "Excellent editing",
+          "43.28"
+        ],
+        [
+          "Gripping thriller",
+          "88.32"
+        ]
+      ],
+      "negatives": [
+        [
+          "Nazriya miscast",
+          "153.08"
+        ],
+        [
+          "Dark subject matter",
+          "280.88"
+        ]
+      ],
+      "title": "Dark thriller",
+      "review_link": "https://www.youtube.com/watch?v=Qh1pvOwOyE4",
+      "details": "Praises the cinematography, music, editing, and thrilling nature of the film.  Feels Nazriya was miscast and the subject matter is very dark."
+    },
+    {
+      "reviewer": "@REELOADMEDIA",
+      "rating": 4.5,
+      "badge": null,
+      "positives": [
+        [
+          "Excellent movie",
+          "206.2"
+        ],
+        [
+          "Great casting",
+          "251.76"
+        ],
+        [
+          "Impressive performance",
+          "256.88"
+        ],
+        [
+          "Complete movie",
+          "332.479"
+        ]
+      ],
+      "negatives": [
+        [
+          "No comparison needed",
+          "211.28"
+        ]
+      ],
+      "title": "A gripping thriller",
+      "review_link": "https://www.youtube.com/watch?v=CgTuyknwB5E",
+      "details": "The reviewer praises the movie's unique treatment, excellent casting, and complete storytelling.  While avoiding direct comparisons, they highlight the suspense and mystery."
+    }
+  ],
+  "hello mummy": [
+    {
+      "reviewer": "@UnniVlogs",
+      "rating": 3.0,
+      "badge": null,
+      "positives": [
+        [
+          "Good performances",
+          "27.92"
+        ],
+        [
+          "Emotional connect",
+          "138.16"
+        ],
+        [
+          "Sharfu's performance",
+          "133.2"
+        ],
+        [
+          "Nice nostalgic element",
+          "324.56"
+        ]
+      ],
+      "negatives": [
+        [
+          "Predictable acting",
+          "57.199"
+        ],
+        [
+          "Lack of humor",
+          "71.68"
+        ],
+        [
+          "Sharfu's usual style",
+          "90.4"
+        ],
+        [
+          "Weak emotional touch",
+          "156.72"
+        ]
+      ],
+      "title": "Average, forgettable movie",
+      "review_link": "https://www.youtube.com/watch?v=O2L2UvwCjZ8",
+      "details": "Unni found the movie average.  Acting was predictable, humor lacking. Sharfu's performance was good but typical,  emotional scenes were weak. Some positive aspects noted but overall forgettable."
+    },
+    {
+      "reviewer": "@SecretAgentX",
+      "rating": 4.0,
+      "badge": null,
+      "positives": [
+        [
+          "Excellent movie",
+          "37.28"
+        ],
+        [
+          "Sharfu's casting",
+          "91.36"
+        ],
+        [
+          "Engaging first half",
+          "322.16"
+        ],
+        [
+          "Great background score",
+          "357.6"
+        ]
+      ],
+      "negatives": [
+        [
+          "Weak horror elements",
+          "304.0"
+        ],
+        [
+          "Songs didn't work",
+          "713.279"
+        ],
+        [
+          "Jagadish's look",
+          "774.56"
+        ],
+        [
+          "Overused horror tropes",
+          "444.8"
+        ]
+      ],
+      "title": "Fun horror comedy",
+      "review_link": "https://www.youtube.com/watch?v=XWOKb5cf3Jg",
+      "details": "SecretAgentX enjoyed the movie, praising Sharfu's performance and the engaging first half. The background score was excellent. However, they criticized the weak horror elements, songs and some stylistic choices."
+    }
+  ],
   "gladiator": [
-  {
-    "reviewer": "@aswanthkok10",
-    "rating": 4.5,
-    "badge": null,
-    "positives": [
-      ["Met expectations", "48.079"],
-      ["Great performance", "113.2"],
-      ["Epic action scenes", "54.64"],
-      ["Excellent visuals", "259.12"]
-    ],
-    "negatives": [
-      ["None mentioned", null]
-    ],
-    "title": "Gladiator sequel excels",
-    "review_link": "https://www.youtube.com/watch?v=NCbDNgpHGbg",
-    "details": "A detailed review praising the sequel's adherence to the original's quality.  Highlights strong performances, epic action, and visuals."
-  },
-  {
-    "reviewer": "@REELOADMEDIA",
-    "rating": 4.0,
-    "badge": null,
-    "positives": [
-      ["Good sequel", "7.279"],
-      ["Neat presentation", "30.24"],
-      ["Grand scale", "67.52"],
-      ["Good entertainer", "153.76"]
-    ],
-    "negatives": [
-      ["Storyline repetitive", "89.92"],
-      ["Ending predictable", "93.119"]
-    ],
-    "title": "Solid, yet familiar",
-    "review_link": "https://www.youtube.com/watch?v=YkmnMb09J0Q",
-    "details": "A positive review focusing on the action sequences and grand production scale. However, it criticizes the repetitive storyline and predictable ending."
-  },
-  {
-    "reviewer": "@UnniVlogs",
-    "rating": 3.5,
-    "badge": null,
-    "positives": [
-      ["Good movie", "137.28"],
-      ["Epic fight scenes", "121.759"],
-      ["Great visuals", "228.319"],
-      ["Engaging scenes", "174.08"]
-    ],
-    "negatives": [
-      ["Irritating start", "143.68"],
-      ["Poor screen quality", "320.8"]
-    ],
-    "title": "Good, but flawed",
-    "review_link": "https://www.youtube.com/watch?v=FXU1RPUWeCQ",
-    "details": "While enjoying the movie's fight scenes and visuals, the reviewer notes an irritating start and poor screen quality in their viewing experience.  They compare it unfavorably to the original."
-  },
-  {
-    "reviewer": "@TamilTalkies",
-    "rating": 3.0,
-    "badge": null,
-    "positives": [
-      ["Impressive visuals", "31.519"],
-      ["Spectacular fights", "184.56"],
-      ["Great costumes", "179.76"],
-      ["Excellent sets", "178.16"]
-    ],
-    "negatives": [
-      ["Russell Crowe missing", "186.0"],
-      ["Weak story", "226.64"],
-      ["Lengthy", "228.799"]
-    ],
-    "title": "Visually stunning",
-    "review_link": "https://www.youtube.com/watch?v=R2tXpqVfjS4",
-    "details": "The review highlights the film's impressive visuals and action scenes, but finds the story weak and the film too long.  It notes the absence of the gravitas of the original Gladiator."
-  }
-]}
+    {
+      "reviewer": "@aswanthkok10",
+      "rating": 4.5,
+      "badge": null,
+      "positives": [
+        [
+          "Met expectations",
+          "48.079"
+        ],
+        [
+          "Great performance",
+          "113.2"
+        ],
+        [
+          "Epic action scenes",
+          "54.64"
+        ],
+        [
+          "Excellent visuals",
+          "259.12"
+        ]
+      ],
+      "negatives": [
+        [
+          "None mentioned",
+          null
+        ]
+      ],
+      "title": "Gladiator sequel excels",
+      "review_link": "https://www.youtube.com/watch?v=NCbDNgpHGbg",
+      "details": "A detailed review praising the sequel's adherence to the original's quality.  Highlights strong performances, epic action, and visuals."
+    },
+    {
+      "reviewer": "@REELOADMEDIA",
+      "rating": 4.0,
+      "badge": null,
+      "positives": [
+        [
+          "Good sequel",
+          "7.279"
+        ],
+        [
+          "Neat presentation",
+          "30.24"
+        ],
+        [
+          "Grand scale",
+          "67.52"
+        ],
+        [
+          "Good entertainer",
+          "153.76"
+        ]
+      ],
+      "negatives": [
+        [
+          "Storyline repetitive",
+          "89.92"
+        ],
+        [
+          "Ending predictable",
+          "93.119"
+        ]
+      ],
+      "title": "Solid, yet familiar",
+      "review_link": "https://www.youtube.com/watch?v=YkmnMb09J0Q",
+      "details": "A positive review focusing on the action sequences and grand production scale. However, it criticizes the repetitive storyline and predictable ending."
+    },
+    {
+      "reviewer": "@UnniVlogs",
+      "rating": 3.5,
+      "badge": null,
+      "positives": [
+        [
+          "Good movie",
+          "137.28"
+        ],
+        [
+          "Epic fight scenes",
+          "121.759"
+        ],
+        [
+          "Great visuals",
+          "228.319"
+        ],
+        [
+          "Engaging scenes",
+          "174.08"
+        ]
+      ],
+      "negatives": [
+        [
+          "Irritating start",
+          "143.68"
+        ],
+        [
+          "Poor screen quality",
+          "320.8"
+        ]
+      ],
+      "title": "Good, but flawed",
+      "review_link": "https://www.youtube.com/watch?v=FXU1RPUWeCQ",
+      "details": "While enjoying the movie's fight scenes and visuals, the reviewer notes an irritating start and poor screen quality in their viewing experience.  They compare it unfavorably to the original."
+    },
+    {
+      "reviewer": "@TamilTalkies",
+      "rating": 3.0,
+      "badge": null,
+      "positives": [
+        [
+          "Impressive visuals",
+          "31.519"
+        ],
+        [
+          "Spectacular fights",
+          "184.56"
+        ],
+        [
+          "Great costumes",
+          "179.76"
+        ],
+        [
+          "Excellent sets",
+          "178.16"
+        ]
+      ],
+      "negatives": [
+        [
+          "Russell Crowe missing",
+          "186.0"
+        ],
+        [
+          "Weak story",
+          "226.64"
+        ],
+        [
+          "Lengthy",
+          "228.799"
+        ]
+      ],
+      "title": "Visually stunning",
+      "review_link": "https://www.youtube.com/watch?v=R2tXpqVfjS4",
+      "details": "The review highlights the film's impressive visuals and action scenes, but finds the story weak and the film too long.  It notes the absence of the gravitas of the original Gladiator."
+    }
+  ]
+}
