@@ -1,4 +1,265 @@
 {
+  "pushpa 2": [
+    {
+      "reviewer": "@aswanthkok10",
+      "rating": 3.5,
+      "badge": null,
+      "positives": [
+        [
+          "Allu's performance",
+          "283.919"
+        ],
+        [
+          "Excellent police station scene",
+          "280.16"
+        ],
+        [
+          "Pushpa's character",
+          "322.32"
+        ],
+        [
+          "Good first half",
+          "376.56"
+        ]
+      ],
+      "negatives": [
+        [
+          "Downs in the script",
+          "59.6"
+        ],
+        [
+          "Fahd's character wasted",
+          "201.76"
+        ],
+        [
+          "Unnecessary family drama",
+          "509.12"
+        ],
+        [
+          "Mediocre climax",
+          "601.44"
+        ]
+      ],
+      "title": "Good first half, weak climax",
+      "review_link": "https://www.youtube.com/watch?v=vVHWn-NiLns",
+      "details": "Good first half with Allu's performance, but the script has downs, Fahd's character is wasted, and the climax is mediocre."
+    },
+    {
+      "reviewer": "@REELOADMEDIA",
+      "rating": 4,
+      "badge": null,
+      "positives": [
+        [
+          "Mass masala entertainer",
+          "5.6"
+        ],
+        [
+          "Massive trailer",
+          "11.84"
+        ],
+        [
+          "High budget movie",
+          "14.799"
+        ],
+        [
+          "Fahd's appearance",
+          "116.479"
+        ]
+      ],
+      "negatives": [
+        [
+          "Over the top scenes",
+          "47.76"
+        ],
+        [
+          "Typical Telugu movie",
+          "47.76"
+        ],
+        [
+          "KGF imitation",
+          "88.32"
+        ]
+      ],
+      "review_link": "https://www.youtube.com/watch?v=0xaTLwcBBU0",
+      "details": "A mass masala entertainer with a massive trailer and high budget.  However, some over the top scenes and a resemblance to KGF are present."
+    },
+    {
+      "reviewer": "@UnniVlogs",
+      "rating": 3.8,
+      "badge": null,
+      "positives": [
+        [
+          "Excellent sound work",
+          "98.479"
+        ],
+        [
+          "Impressive background score",
+          "101.68"
+        ],
+        [
+          "Stunning visuals",
+          "149.92"
+        ],
+        [
+          "Allu Arjun's style",
+          "260.959"
+        ]
+      ],
+      "negatives": [
+        [
+          "Irritating lyrics",
+          "130.56"
+        ],
+        [
+          "Rashmika's performance",
+          "434.08"
+        ],
+        [
+          "Family drama",
+          "280.4"
+        ],
+        [
+          "Weak second half",
+          "390.08"
+        ]
+      ],
+      "title": "Good visuals, weak story",
+      "review_link": "https://www.youtube.com/watch?v=f04pgnXt8Is",
+      "details": "The movie features excellent sound work, background score and visuals, but irritating lyrics and Rashmika's performance are weak points. The second half is weaker than the first, with family drama detracting from the overall plot."
+    },
+    {
+      "reviewer": "@TamilTalkies",
+      "rating": 3.2,
+      "badge": null,
+      "positives": [
+        [
+          "Gripping first half",
+          "245.439"
+        ],
+        [
+          "Pushpa's character",
+          "223.92"
+        ],
+        [
+          "Technically strong",
+          "346.96"
+        ],
+        [
+          "Grand scale",
+          "362.24"
+        ]
+      ],
+      "negatives": [
+        [
+          "Japan scene",
+          "130.8"
+        ],
+        [
+          "Short second half",
+          "253.12"
+        ],
+        [
+          "Family sentiment",
+          "285.199"
+        ],
+        [
+          "Weak songs",
+          "378.56"
+        ]
+      ],
+      "title": "Good first half, weak songs",
+      "review_link": "https://www.youtube.com/watch?v=MDeOZdbSBCU",
+      "details": "The movie has a gripping first half but the second half is short, and unnecessarily includes family sentiment. The songs are weak.  Technically strong and grand scale."
+    },
+    {
+      "reviewer": "@SecretAgentX",
+      "rating": 2.5,
+      "badge": null,
+      "positives": [
+        [
+          "Allu's performance",
+          "69.32"
+        ],
+        [
+          "Pushpa's success",
+          "71.6"
+        ],
+        [
+          "Villains' performance",
+          "548.16"
+        ],
+        [
+          "A class fight",
+          "496.72"
+        ]
+      ],
+      "negatives": [
+        [
+          "Weak opening scene",
+          "129.759"
+        ],
+        [
+          "Fahd's character",
+          "179.04"
+        ],
+        [
+          "Poor songs",
+          "342.0"
+        ],
+        [
+          "Overacting",
+          "599.12"
+        ]
+      ],
+      "title": "Poor storyline, good fights",
+      "review_link": "https://www.youtube.com/watch?v=Jjxqvf4Q1oo",
+      "details": "Allu Arjun shines, but weak opening and Fahd's character is bad. Poor songs and overacting ruin the experience. However, some fight scenes are good."
+    },
+    {
+      "reviewer": "@Lifeof_Shazzam",
+      "rating": 3,
+      "badge": null,
+      "positives": [
+        [
+          "Allu's performance",
+          "75.0"
+        ],
+        [
+          "Good first half",
+          "50.0"
+        ],
+        [
+          "Pushpa's character",
+          "105.0"
+        ],
+        [
+          "Fahd's performance",
+          "150.0"
+        ]
+      ],
+      "negatives": [
+        [
+          "Downs in the script",
+          "55.0"
+        ],
+        [
+          "Fahd's character",
+          "160.0"
+        ],
+        [
+          "Unnecessary scenes",
+          "50.0"
+        ],
+        [
+          "Weak second half",
+          "55.0"
+        ]
+      ],
+      "title": "Good first half, poor script",
+      "review_link": "https://www.youtube.com/watch?v=FE1jY-6byVw",
+      "details": "Allu Arjun's performance and the first half are good. However, the script has many downs and Fahd's character is poorly executed. The second half is weaker."
+    }
+  ],
   "sthanarthi sreekuttan": [
     {
       "reviewer": "@aswanthkok10",

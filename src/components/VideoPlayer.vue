@@ -10,26 +10,102 @@ export default {
     return {
       player: null,
       currentVideoIndex: 0,
-      videos: [
+      videos: 
+      [
   {
-    id: "CzY0265VwWk",
-    start: 122.52,
-    end: 145.04
+    id: "vVHWn-NiLns",
+    start: 260.919,
+    end: 330.16
   },
   {
-    id: "CgTuyknwB5E",
-    start: 254.72,
-    end: 256.88
+    id: "vVHWn-NiLns",
+    start: 378.56,
+    end: 403.28
   },
   {
-    id: "OSmA2HiE_zA",
-    start: 206.76,
-    end: 230.4
+    id: "vVHWn-NiLns",
+    start: 513.12,
+    end: 531.839
   },
   {
-    id: "Qh1pvOwOyE4",
-    start: 140.72,
-    end: 181.08
+    id: "vVHWn-NiLns",
+    start: 707.76,
+    end: 753.04
+  },
+  {
+    id: "0xaTLwcBBU0",
+    start: 21.68,
+    end: 26.0
+  },
+  {
+    id: "f04pgnXt8Is",
+    start: 188.72,
+    end: 272.479
+  },
+  {
+    id: "f04pgnXt8Is",
+    start: 396.0,
+    end: 425.039
+  },
+  {
+    id: "MDeOZdbSBCU",
+    start: 51.76,
+    end: 122.159
+  },
+  {
+    id: "MDeOZdbSBCU",
+    start: 334.32,
+    end: 358.72
+  },
+  {
+    id: "MDeOZdbSBCU",
+    start: 395.199,
+    end: 412.88
+  },
+  {
+    id: "Jjxqvf4Q1oo",
+    start: 7.24,
+    end: 74.24
+  },
+  {
+    id: "Jjxqvf4Q1oo",
+    start: 209.599,
+    end: 266.32
+  },
+  {
+    id: "Jjxqvf4Q1oo",
+    start: 294.96,
+    end: 315.6
+  },
+  {
+    id: "Jjxqvf4Q1oo",
+    start: 499.68,
+    end: 511.759
+  },
+  {
+    id: "Jjxqvf4Q1oo",
+    start: 664.2,
+    end: 707.279
+  },
+  {
+    id: "FE1jY-6byVw",
+    start: 190.0,
+    end: 250.0
+  },
+  {
+    id: "FE1jY-6byVw",
+    start: 275.0,
+    end: 305.0
+  },
+  {
+    id: "FE1jY-6byVw",
+    start: 375.0,
+    end: 410.0
+  },
+  {
+    id: "FE1jY-6byVw",
+    start: 440.0,
+    end: 440.0
   }
 ]
     }
