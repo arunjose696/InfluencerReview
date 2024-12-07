@@ -117,8 +117,7 @@
 import { ref,computed } from 'vue'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
 import { Star, Award, ThumbsUp, ThumbsDown } from 'lucide-vue-next'
-import { useRoute } from 'vue-router'
-import reviewlist from '@/assets/reviews.json';
+import axios from 'axios';
 
 import pictures from '@/assets/pictures.json';
 import artifacts from '@/assets/artifacts.json';
@@ -144,35 +143,47 @@ export default {
   },
   
   setup(props) {
-    const activeReviewId = ref(null)  
-    const movieTitle =   computed(() => props.id);
-    const backgroundImage = ref(artifacts[movieTitle.value]) // Your default image URL
-    const reviews = reviewlist[movieTitle.value]
-    const route = useRoute()
-    console.log(movieTitle.value)
-    console.log(route.params.id)
+    const reviewlist = ref({});
+    const activeReviewId = ref(null);
+    const movieTitle = computed(() => props.id);
+    const backgroundImage = ref(artifacts[movieTitle.value]); // Your default image URL
+    const reviews = computed(() => reviewlist.value[movieTitle.value] || []); // Ensure reviews is reactive
+
+    const handleImageError = (event) => {
+      event.target.src = 'path/to/default/image.png'; // Set a default image path
+    };
+
+    axios.get('http://127.0.0.1:8000/fetch-reviews/', {
+      headers: {
+        'accept': 'application/json'
+      }
+    })
+    .then(response => {
+      reviewlist.value = response.data;
+      console.log(reviewlist.value);
+    })
+    .catch(error => {
+      console.log("Error fetching reviews");
+      console.error(error);
+    });
+
     const backgroundStyle = {
       '--bg-image': `url(${backgroundImage.value})`
-    }
-    const expandedReview = ref(null)
+    };
     
-   
     const toggleReview = (reviewId) => {
-        
-        console.log(reviewId)
-      //expandedReview.value = expandedReview.value === index ? null : index
-      activeReviewId.value = activeReviewId.value === reviewId ? null : reviewId
-    }
+      activeReviewId.value = activeReviewId.value === reviewId ? null : reviewId;
+    };
     
     return {
       movieTitle,
       backgroundStyle,
-      expandedReview,
-      reviews,
+      reviews, // Now reactive
       activeReviewId,
       pictures,
-      toggleReview
-    }
+      toggleReview,
+      handleImageError
+    };
   }
 }
 </script>
