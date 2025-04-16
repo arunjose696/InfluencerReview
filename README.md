@@ -22,4 +22,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-+49 17657  8357  88
++49 17657 - 8357-  88
